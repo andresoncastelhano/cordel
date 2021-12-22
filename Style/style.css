@@ -127,16 +127,26 @@ footer {
     padding: 10px;
 }
 
-@media  ( min-width: 200px) and ( max-width: 768px) {
+@media  ( min-width: 100px) and ( max-width: 768px) {
 
     html, body {
         background-color: rgba(169, 169, 169, 0.178);
         height: 100vh;
         }
 
-    header > p {
-        font-size: 0.7em;
+        header h1{
+            font-size: 2.5em;
+            padding-top: 50px;
+            padding-right: 30px;
+            padding-left: 30px;
+            font-weight: lighter;
+                       
+            }
+    
+        header > p {
+        font-size: 0.5em;
         padding-top: 5px;
+        padding-bottom: 50px;
         
     }
     
