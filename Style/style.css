@@ -13,11 +13,10 @@
     padding: 0px;
 }
 
-
  html, body {
     background-color: rgba(169, 169, 169, 0.178);
     height: 100vh;
-}   
+}
 
 header {
     background-color: black;
@@ -31,7 +30,7 @@ header {
      font-weight: normal;
     padding: 50px 0px 0px 0px;
     font-variant: small-caps; 
-    
+   
 }
 
 header > p {
@@ -39,6 +38,7 @@ header > p {
 }
 
 header a, footer a {
+    
     color: white;
     text-decoration: none; 
     font-weight: bolder; 
@@ -55,7 +55,7 @@ section {
     padding-bottom: 10vh;
     line-height: 2.5em;
     padding-left: 30px;
-}
+    }
 
  section > p {
      padding-bottom: 2em;
